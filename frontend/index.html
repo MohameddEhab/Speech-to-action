@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura - Your AI Assistant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Aura AI</div>
+            <div class="nav-tagline">Your AI Assistant</div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Aura</h1>
+            <p class="subtitle">Your conversational AI assistant</p>
+        </header>
+
+        <main>
+            <div class="mic-container">
+                <button id="micBtn" aria-label="Start voice recording">
+                    <svg class="mic-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                        <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                        <line x1="12" y1="19" x2="12" y2="23"></line>
+                        <line x1="8" y1="23" x2="16" y2="23"></line>
+                    </svg>
+                </button>
+                <div class="pulse-ring"></div>
+            </div>
+
+            <div id="status" class="status">Click the microphone to speak</div>
+            <div id="transcript" class="transcript"></div>
+        </main>
+
+        <footer>
+            <p class="hint">Click the microphone to start speaking</p>
+        </footer>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Aura AI</h3>
+                <p>Your intelligent voice assistant</p>
+            </div>
+            <div class="footer-section">
+                <h4>Mohamed Ehab</h4>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/mohamed-ehab-8166662ab/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    <li><a href="https://github.com/MohameddEhab" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Ahmed Labib</h4>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/ahmed-lapip-689063294/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    <li><a href="https://github.com/AhmedLabib1" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Aura AI. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
